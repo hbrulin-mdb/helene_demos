@@ -1,9 +1,5 @@
 # helene_demos
 
-TODO : 
-- remove all secrets
-- mettre des gitignore partout
-
 
 # Content
 
