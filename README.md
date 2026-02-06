@@ -5,15 +5,15 @@
 
 | Name | Demoed features | Notes |
 |----------|----------|----------|
-| 1-amadeus-pitr    | EA PITR     |     |
-| 2-amadeus-streams    | Change Streams PNR events to Kafka topic  |     |
-| 3-thalesradar-introMDB    | Simple queries & geo queries, indexing, aggregations & views, timeseries |      |
-| 4-thales-k8s+upgrade-RBAC-QE   | Installation instruction, K8s deployment overview, Upgrades, RBAC, QE oss vs EA | Source K8s cluster is deployed [Thomas' repo](https://github.com/scott-thomas/Azure-AKS-MongoDB-EA-OPS-Manager). Changes to version and tenant names. There is no demo per say for QE, it's just two java files showing the differences between EA and community. [These are the slides that go with it](https://docs.google.com/presentation/d/1tyyB9HzyiFby4aSb7pviat-P0LPsgEDc6RZ9g_lUTmA/edit?slide=id.g3bc8e0d115f_0_2464#slide=id.g3bc8e0d115f_0_2464) |
-| 5-ec2-om-deployment+overview    | EC2 Deployment based on [Sylvain Chambon's ](https://github.com/schambon/ec2-om), with an updated AMI, different machine types. Overview of OM, replicaset creation via UI and API.  | I tried to change the scripts so the nodes use private dns for internal communication, so that if I pause the VMs, the setup is not broken by change of public IP and public DNS. I've had issues with restarts though - to be worked on, files are in folder privdns|
-| 6-AMP Walkthrough   | AMP Walkthrough  | This walkthrough was done prior to the release of this : https://amp-docs.prod.corp.mongodb.com/demo. It is likely to be outdated.     |
-| 7-railwayassistantragapp    | This demos a RAG assistant for railway operators    | Uses mistral embeddings, langchain, and atlas.  Mistral AI API key required.   |
-| 8-artium-modelindex-ts-search-voyageai | Indexing & geo, Aggregations, basic Search, basic Vector Search using VoyageAI API     | Voyage AI API key required    |
-| 9-agentdemo-skillbadge    | Skill badge agent demo     | Requires openai key   |
+| 01-amadeus-pitr    | EA PITR     |     |
+| 02-amadeus-streams    | Change Streams PNR events to Kafka topic  |     |
+| 03-thalesradar-introMDB    | Simple queries & geo queries, indexing, aggregations & views, timeseries |      |
+| 04-thales-k8s+upgrade-RBAC-QE   | Installation instruction, K8s deployment overview, Upgrades, RBAC, QE oss vs EA | Source K8s cluster is deployed [Thomas' repo](https://github.com/scott-thomas/Azure-AKS-MongoDB-EA-OPS-Manager). Changes to version and tenant names. There is no demo per say for QE, it's just two java files showing the differences between EA and community. [These are the slides that go with it](https://docs.google.com/presentation/d/1tyyB9HzyiFby4aSb7pviat-P0LPsgEDc6RZ9g_lUTmA/edit?slide=id.g3bc8e0d115f_0_2464#slide=id.g3bc8e0d115f_0_2464) |
+| 05-ec2-om-deployment+overview    | EC2 Deployment based on [Sylvain Chambon's ](https://github.com/schambon/ec2-om), with an updated AMI, different machine types. Overview of OM, replicaset creation via UI and API.  | I tried to change the scripts so the nodes use private dns for internal communication, so that if I pause the VMs, the setup is not broken by change of public IP and public DNS. I've had issues with restarts though - to be worked on, files are in folder privdns|
+| 06-AMP Walkthrough   | AMP Walkthrough  | This walkthrough was done prior to the release of this : https://amp-docs.prod.corp.mongodb.com/demo. It is likely to be outdated.     |
+| 07-railwayassistantragapp    | This demos a RAG assistant for railway operators    | Uses mistral embeddings, langchain, and atlas.  Mistral AI API key required.   |
+| 08-artium-modelindex-ts-search-voyageai | Indexing & geo, Aggregations, basic Search, basic Vector Search using VoyageAI API     | Voyage AI API key required    |
+| 09-agentdemo-skillbadge    | Skill badge agent demo     | Requires openai key   |
 | 10-zone-sharding   | Simple geosharding dispatch    |      |
 | 11-flightid-movecollection   | Demo of the moveCollection() operation to rebalance a cluster  |   |
 | 12-iceberg  | This is Bruno's iceberg demo, with my notes, and my example files.  |     |
