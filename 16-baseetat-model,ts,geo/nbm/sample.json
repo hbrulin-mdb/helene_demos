@@ -1,0 +1,44 @@
+{
+  "equipement": "mcg",
+  "rame": "351L",
+  "date_etat": {
+    "$date": "2025-05-16T00:00:00.000Z"
+  },
+  "source": "tssp_oca",
+  "events": [
+    {
+      "mesure": "Door_Open",
+      "valeur": "true",
+      "date_etat": {
+        "$date": "2025-05-16T10:15:30.000Z"
+      }
+    },
+    {
+      "mesure": "Brake_Applied",
+      "valeur": "0.8",
+      "date_etat": {
+        "$date": "2025-05-16T10:15:32.000Z"
+      }
+    }
+  ],
+  "geolocations": [
+    {
+      "timestamp": {
+        "$date": "2025-05-16T10:10:05.000Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [ 2.2259058, 48.9499931 ]
+      }
+    },
+    {
+      "timestamp": {
+        "$date": "2025-05-16T10:10:15.000Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [ 2.2261011, 48.9499855 ]
+      }
+    }
+  ]
+}

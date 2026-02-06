@@ -1,0 +1,62 @@
+# --------------------
+# Node.js
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+.env.*
+!.env.example
+
+# --------------------
+# MongoDB Change Streams
+# --------------------
+resume-token.json
+resume-token*.json
+
+# --------------------
+# Logs
+# --------------------
+logs/
+*.log
+
+# --------------------
+# Kafka / Docker
+# --------------------
+kafka_data/
+docker-data/
+*.pid
+
+# --------------------
+# OS-specific
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Editors / IDEs
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# Coverage / test output
+# --------------------
+coverage/
+.nyc_output/
+
+# --------------------
+# Misc
+# --------------------
+*.tmp
+*.bak

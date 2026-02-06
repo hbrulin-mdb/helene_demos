@@ -1,0 +1,1371 @@
+{
+
+  "$jsonSchema": {
+
+    "bsonType": "object",
+
+    "required": [
+
+      "_id",
+
+      "Aberrant",
+
+      "CapCirculation",
+
+      "CapGps",
+
+      "CauseAberrant",
+
+      "CauseNonRapprochementTheorique",
+
+      "CodeLigne",
+
+      "CodeTroncon",
+
+      "CodeUi",
+
+      "Courses",
+
+      "data_mr",
+
+      "DateHeureDepartSillon",
+
+      "DernierePositionCourse",
+
+      "DernierePositionMobile",
+
+      "DetailEvenement",
+
+      "distanceParcoursCourse",
+
+      "DistanceParcoursSillon",
+
+      "DistanceProjectionLigne",
+
+      "DistanceProjectionVoie",
+
+      "EcartHoraireEstimeCourse",
+
+      "EcartHoraireSillon",
+
+      "EcartItineraire",
+
+      "Engins",
+
+      "Entete",
+
+      "Epsg",
+
+      "FenetreLocalisateur",
+
+      "FiabiliteGps",
+
+      "IdCorrelation",
+
+      "IdEtapeCourse",
+
+      "IdLocalisation",
+
+      "IdMobile",
+
+      "IndicateurFer",
+
+      "location",
+
+      "MaterielLocalisateur",
+
+      "NumeroSillonComplementaire",
+
+      "NumeroSillonOrigine",
+
+      "OriginePosition",
+
+      "Pays",
+
+      "PkLigne",
+
+      "PkVoie",
+
+      "Prs",
+
+      "Rames",
+
+      "RapprochementTheorique",
+
+      "Rfn",
+
+      "Segment",
+
+      "Source",
+
+      "TechniqueDetection",
+
+      "TeteDeConvoi",
+
+      "TypeEvenement",
+
+      "UtcDebutStationnement",
+
+      "UtcEnvoi",
+
+      "UtcObservation",
+
+      "VitesseInstantanee",
+
+      "VoiePhysiqueDestination",
+
+      "VoiePhysiqueProvenance",
+
+      "VoiePhysiqueRelation",
+
+      "VoieReseau",
+
+      "X",
+
+      "xFinConvoi",
+
+      "XProjLigne",
+
+      "XProjVoie",
+
+      "Y",
+
+      "yFinConvoi",
+
+      "YProjLigne",
+
+      "YProjVoie",
+
+      "Z",
+
+      "ZProjLigne",
+
+      "ZProjVoie"
+
+    ],
+
+    "properties": {
+
+      "_id": {
+
+        "bsonType": "objectId"
+
+      },
+
+      "Aberrant": {
+
+        "bsonType": "bool"
+
+      },
+
+      "CapCirculation": {
+
+        "bsonType": [
+
+          "int",
+
+          "null",
+
+          "double"
+
+        ]
+
+      },
+
+      "CapGps": {
+
+        "bsonType": [
+
+          "int",
+
+          "null"
+
+        ]
+
+      },
+
+      "CauseAberrant": {
+
+        "bsonType": [
+
+          "null",
+
+          "string"
+
+        ]
+
+      },
+
+      "CauseNonRapprochementTheorique": {
+
+        "bsonType": [
+
+          "null",
+
+          "string"
+
+        ]
+
+      },
+
+      "CodeLigne": {
+
+        "bsonType": [
+
+          "null",
+
+          "string"
+
+        ]
+
+      },
+
+      "CodeTroncon": {
+
+        "bsonType": "null"
+
+      },
+
+      "CodeUi": {
+
+        "bsonType": [
+
+          "string",
+
+          "null"
+
+        ]
+
+      },
+
+      "Courses": {
+
+        "anyOf": [
+
+          {
+
+            "bsonType": "object",
+
+            "properties": {
+
+              "Course": {
+
+                "bsonType": "array",
+
+                "items": {
+
+                  "bsonType": "object",
+
+                  "properties": {
+
+                    "CodeActivite": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "CodeCie": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "CodeTransporteur": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "distanceParcoursCourse": {
+
+                      "bsonType": [
+
+                        "double",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "IdCourse": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "LibCodeActivite": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "LibCodeCie": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "LieuDestinationLibPr": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "LieuOrigineLibPr": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "Marque": {
+
+                      "bsonType": "null"
+
+                    },
+
+                    "NumeroCourse": {
+
+                      "bsonType": "string"
+
+                    },
+
+                    "NumeroCourseComplementaire": {
+
+                      "bsonType": [
+
+                        "null",
+
+                        "string"
+
+                      ]
+
+                    },
+
+                    "TypeMission": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "UtcDebutStationnement": {
+
+                      "bsonType": "null"
+
+                    },
+
+                    "UtcDepart": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "UtcMiseAJourPmt": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "CodeActivite",
+
+                    "CodeCie",
+
+                    "CodeTransporteur",
+
+                    "distanceParcoursCourse",
+
+                    "IdCourse",
+
+                    "LibCodeActivite",
+
+                    "LibCodeCie",
+
+                    "LieuDestinationLibPr",
+
+                    "LieuOrigineLibPr",
+
+                    "Marque",
+
+                    "NumeroCourse",
+
+                    "NumeroCourseComplementaire",
+
+                    "TypeMission",
+
+                    "UtcDebutStationnement",
+
+                    "UtcDepart",
+
+                    "UtcMiseAJourPmt"
+
+                  ]
+
+                }
+
+              }
+
+            },
+
+            "required": [
+
+              "Course"
+
+            ]
+
+          },
+
+          {
+
+            "bsonType": "null"
+
+          }
+
+        ]
+
+      },
+
+      "data_mr": {
+
+        "bsonType": "object",
+
+        "properties": {
+
+          "flotte": {
+
+            "bsonType": "object",
+
+            "properties": {
+
+              "identifiant": {
+
+                "bsonType": "int"
+
+              },
+
+              "libelle": {
+
+                "bsonType": "string"
+
+              }
+
+            },
+
+            "required": [
+
+              "identifiant",
+
+              "libelle"
+
+            ]
+
+          },
+
+          "identifiant": {
+
+            "bsonType": "int"
+
+          },
+
+          "num_facade": {
+
+            "bsonType": "string"
+
+          },
+
+          "num_immatriculation_ef": {
+
+            "bsonType": "string"
+
+          },
+
+          "serie": {
+
+            "bsonType": "object",
+
+            "properties": {
+
+              "code_lcn": {
+
+                "bsonType": "string"
+
+              },
+
+              "code_serie_materiel": {
+
+                "bsonType": "string"
+
+              },
+
+              "code_serie_mere": {
+
+                "bsonType": [
+
+                  "string",
+
+                  "null"
+
+                ]
+
+              },
+
+              "code_serie_racine": {
+
+                "bsonType": "string"
+
+              },
+
+              "identifiant": {
+
+                "bsonType": "int"
+
+              },
+
+              "parc": {
+
+                "bsonType": "string"
+
+              },
+
+              "type": {
+
+                "bsonType": "string"
+
+              }
+
+            },
+
+            "required": [
+
+              "code_lcn",
+
+              "code_serie_materiel",
+
+              "code_serie_mere",
+
+              "code_serie_racine",
+
+              "identifiant",
+
+              "parc",
+
+              "type"
+
+            ]
+
+          },
+
+          "stf": {
+
+            "bsonType": "object",
+
+            "properties": {
+
+              "id": {
+
+                "bsonType": "string"
+
+              },
+
+              "name": {
+
+                "bsonType": "string"
+
+              }
+
+            },
+
+            "required": [
+
+              "id",
+
+              "name"
+
+            ]
+
+          }
+
+        },
+
+        "required": [
+
+          "flotte",
+
+          "identifiant",
+
+          "num_facade",
+
+          "num_immatriculation_ef",
+
+          "serie",
+
+          "stf"
+
+        ]
+
+      },
+
+      "DateHeureDepartSillon": {
+
+        "bsonType": [
+
+          "string",
+
+          "null",
+
+          "date"
+
+        ]
+
+      },
+
+      "DernierePositionCourse": {
+
+        "bsonType": [
+
+          "bool",
+
+          "null"
+
+        ]
+
+      },
+
+      "DernierePositionMobile": {
+
+        "bsonType": "bool"
+
+      },
+
+      "DetailEvenement": {
+
+        "bsonType": "null"
+
+      },
+
+      "distanceParcoursCourse": {
+
+        "bsonType": "null"
+
+      },
+
+      "DistanceParcoursSillon": {
+
+        "bsonType": [
+
+          "double",
+
+          "null"
+
+        ]
+
+      },
+
+      "DistanceProjectionLigne": {
+
+        "bsonType": [
+
+          "double",
+
+          "null"
+
+        ]
+
+      },
+
+      "DistanceProjectionVoie": {
+
+        "bsonType": "null"
+
+      },
+
+      "EcartHoraireEstimeCourse": {
+
+        "bsonType": "null"
+
+      },
+
+      "EcartHoraireSillon": {
+
+        "bsonType": [
+
+          "int",
+
+          "null",
+
+          "double"
+
+        ]
+
+      },
+
+      "EcartItineraire": {
+
+        "bsonType": [
+
+          "bool",
+
+          "null"
+
+        ]
+
+      },
+
+      "Engins": {
+
+        "bsonType": "object",
+
+        "properties": {
+
+          "Engin": {
+
+            "bsonType": "array",
+
+            "items": {
+
+              "bsonType": "object",
+
+              "properties": {
+
+                "GroupesVehicules": {
+
+                  "bsonType": "null"
+
+                },
+
+                "NumeroEngin": {
+
+                  "bsonType": "string"
+
+                }
+
+              },
+
+              "required": [
+
+                "GroupesVehicules",
+
+                "NumeroEngin"
+
+              ]
+
+            }
+
+          }
+
+        },
+
+        "required": [
+
+          "Engin"
+
+        ]
+
+      },
+
+      "Entete": {
+
+        "bsonType": "object",
+
+        "properties": {
+
+          "ComposantKo": {
+
+            "bsonType": "null"
+
+          },
+
+          "Environnement": {
+
+            "bsonType": "string"
+
+          },
+
+          "Version": {
+
+            "bsonType": "string"
+
+          }
+
+        },
+
+        "required": [
+
+          "ComposantKo",
+
+          "Environnement",
+
+          "Version"
+
+        ]
+
+      },
+
+      "Epsg": {
+
+        "bsonType": "int"
+
+      },
+
+      "FenetreLocalisateur": {
+
+        "bsonType": "null"
+
+      },
+
+      "FiabiliteGps": {
+
+        "bsonType": [
+
+          "int",
+
+          "null"
+
+        ]
+
+      },
+
+      "IdCorrelation": {
+
+        "bsonType": [
+
+          "string",
+
+          "long"
+
+        ]
+
+      },
+
+      "IdEtapeCourse": {
+
+        "bsonType": [
+
+          "string",
+
+          "null"
+
+        ]
+
+      },
+
+      "IdLocalisation": {
+
+        "bsonType": [
+
+          "null",
+
+          "int"
+
+        ]
+
+      },
+
+      "IdMobile": {
+
+        "bsonType": "string"
+
+      },
+
+      "IndicateurFer": {
+
+        "bsonType": "string"
+
+      },
+
+      "location": {
+
+        "anyOf": [
+
+          {
+
+            "bsonType": "object",
+
+            "properties": {
+
+              "coordinates": {
+
+                "bsonType": "array",
+
+                "items": {
+
+                  "bsonType": "double"
+
+                }
+
+              },
+
+              "type": {
+
+                "bsonType": "string"
+
+              }
+
+            },
+
+            "required": [
+
+              "coordinates",
+
+              "type"
+
+            ]
+
+          },
+
+          {
+
+            "bsonType": "null"
+
+          }
+
+        ]
+
+      },
+
+      "MaterielLocalisateur": {
+
+        "bsonType": "null"
+
+      },
+
+      "NumeroSillonComplementaire": {
+
+        "bsonType": [
+
+          "null",
+
+          "string"
+
+        ]
+
+      },
+
+      "NumeroSillonOrigine": {
+
+        "bsonType": [
+
+          "string",
+
+          "null"
+
+        ]
+
+      },
+
+      "OriginePosition": {
+
+        "bsonType": "string"
+
+      },
+
+      "Pays": {
+
+        "bsonType": [
+
+          "string",
+
+          "null"
+
+        ]
+
+      },
+
+      "PkLigne": {
+
+        "bsonType": "null"
+
+      },
+
+      "PkVoie": {
+
+        "bsonType": "null"
+
+      },
+
+      "Prs": {
+
+        "anyOf": [
+
+          {
+
+            "bsonType": "object",
+
+            "properties": {
+
+              "Pr": {
+
+                "bsonType": "array",
+
+                "items": {
+
+                  "bsonType": "object",
+
+                  "properties": {
+
+                    "Ch": {
+
+                      "bsonType": "string"
+
+                    },
+
+                    "Ci": {
+
+                      "bsonType": "string"
+
+                    },
+
+                    "Cr": {
+
+                      "bsonType": "string"
+
+                    },
+
+                    "Distance": {
+
+                      "bsonType": "double"
+
+                    },
+
+                    "Orientation": {
+
+                      "bsonType": [
+
+                        "string",
+
+                        "null"
+
+                      ]
+
+                    },
+
+                    "PrimaryCode": {
+
+                      "bsonType": "null"
+
+                    },
+
+                    "Type": {
+
+                      "bsonType": "string"
+
+                    }
+
+                  },
+
+                  "required": [
+
+                    "Ch",
+
+                    "Ci",
+
+                    "Cr",
+
+                    "Distance",
+
+                    "Orientation",
+
+                    "PrimaryCode",
+
+                    "Type"
+
+                  ]
+
+                }
+
+              }
+
+            },
+
+            "required": [
+
+              "Pr"
+
+            ]
+
+          },
+
+          {
+
+            "bsonType": "null"
+
+          }
+
+        ]
+
+      },
+
+      "Rames": {
+
+        "bsonType": "null"
+
+      },
+
+      "RapprochementTheorique": {
+
+        "bsonType": "bool"
+
+      },
+
+      "Rfn": {
+
+        "bsonType": [
+
+          "null",
+
+          "bool"
+
+        ]
+
+      },
+
+      "Segment": {
+
+        "bsonType": "null"
+
+      },
+
+      "Source": {
+
+        "bsonType": "string"
+
+      },
+
+      "TechniqueDetection": {
+
+        "bsonType": "string"
+
+      },
+
+      "TeteDeConvoi": {
+
+        "bsonType": "bool"
+
+      },
+
+      "TypeEvenement": {
+
+        "bsonType": "null"
+
+      },
+
+      "UtcDebutStationnement": {
+
+        "bsonType": [
+
+          "null",
+
+          "string",
+
+          "date"
+
+        ]
+
+      },
+
+      "UtcEnvoi": {
+
+        "bsonType": [
+
+          "string",
+
+          "date"
+
+        ]
+
+      },
+
+      "UtcObservation": {
+
+        "bsonType": "date"
+
+      },
+
+      "VitesseInstantanee": {
+
+        "bsonType": "double"
+
+      },
+
+      "VoiePhysiqueDestination": {
+
+        "bsonType": "null"
+
+      },
+
+      "VoiePhysiqueProvenance": {
+
+        "bsonType": "null"
+
+      },
+
+      "VoiePhysiqueRelation": {
+
+        "bsonType": "null"
+
+      },
+
+      "VoieReseau": {
+
+        "bsonType": "null"
+
+      },
+
+      "X": {
+
+        "bsonType": "double"
+
+      },
+
+      "xFinConvoi": {
+
+        "bsonType": "null"
+
+      },
+
+      "XProjLigne": {
+
+        "bsonType": [
+
+          "double",
+
+          "null"
+
+        ]
+
+      },
+
+      "XProjVoie": {
+
+        "bsonType": "null"
+
+      },
+
+      "Y": {
+
+        "bsonType": "double"
+
+      },
+
+      "yFinConvoi": {
+
+        "bsonType": "null"
+
+      },
+
+      "YProjLigne": {
+
+        "bsonType": [
+
+          "double",
+
+          "null"
+
+        ]
+
+      },
+
+      "YProjVoie": {
+
+        "bsonType": "null"
+
+      },
+
+      "Z": {
+
+        "bsonType": [
+
+          "null",
+
+          "double"
+
+        ]
+
+      },
+
+      "ZProjLigne": {
+
+        "bsonType": "null"
+
+      },
+
+      "ZProjVoie": {
+
+        "bsonType": "null"
+
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,11 @@
+{
+	"customer_id": {"$ssn": {"dashes": false}},  
+	"firstName": "$first", 
+	"lastName":"$last",
+	"address":"$address", 
+	"city":"$city", 
+	"state":"$state", 
+	"zip":"$zip", 
+	"location": {"$choose": {"from": ["US", "CA","JP","IN","DE","IT"], "weights": [1, 1,1,1,1,1]}},
+	"age": "$age"
+}

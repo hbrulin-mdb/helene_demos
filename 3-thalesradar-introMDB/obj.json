@@ -1,0 +1,46 @@
+{
+  "_id": "radar_001",
+  "type": "aircraft",
+  "signal_strength": 0.87,
+
+  "metadata": {
+    "created_at": ISODate("2026-01-13T09:55:00Z"),
+    "last_update": ISODate("2026-01-13T10:20:45Z"),
+    "sources": ["src_A01", "src_B07"]
+  },
+
+  "position": {
+    "xyz": {
+      "x": 1250.5,
+      "y": -320.2,
+      "z": 10250.0,
+      "unit": "meters"
+    },
+    "geo": {
+      "type": "Point",
+      "coordinates": [2.3522, 48.8566]
+    }
+  },
+
+  "velocity": {
+    "speed": 210.5,
+    "heading": 85.2,
+    "vertical_speed": 0.0,
+    "unit": "m/s"
+  },
+
+    "threat_assessment": {
+    "level": 3,
+    "label": "medium",
+    "dynamic_factors": {
+      "speed_variation": "normal",
+      "trajectory_deviation": false
+    }
+  },
+
+  "detection_quality": {
+    "detection_score": 0.82,
+    "tracking_quality": "stable"
+  }
+}
+

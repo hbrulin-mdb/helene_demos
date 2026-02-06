@@ -1,0 +1,50 @@
+services:
+  kafka:
+    image: apache/kafka-native:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"   
+    environment:
+      # Two listeners: one for host apps, one for docker network apps
+      KAFKA_LISTENERS: CONTROLLER://localhost:9091,HOST://0.0.0.0:9092,DOCKER://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: HOST://localhost:9092,DOCKER://kafka:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,DOCKER:PLAINTEXT,HOST:PLAINTEXT
+
+      # KRaft settings (single node)
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@localhost:9091
+
+      # Inter-broker comms (use the docker listener)
+      KAFKA_INTER_BROKER_LISTENER_NAME: DOCKER
+
+      # Single-node replication factors
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+
+  # create pnr-events topic
+  kafka-init:
+    image: apache/kafka:latest
+    container_name: kafka-init
+    depends_on:
+      - kafka
+    entrypoint: ["/bin/bash", "-lc"]
+    command: >
+      "set -euo pipefail;
+      echo 'Waiting for Kafka to be ready...';
+      until /opt/kafka/bin/kafka-broker-api-versions.sh --bootstrap-server kafka:9093 >/dev/null 2>&1; do
+        sleep 1;
+      done;
+      echo 'Creating topic pnr-events...';
+      /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka:9093 --create --if-not-exists --topic pnr-events --partitions 6 --replication-factor 1;
+      echo 'Topics:';
+      /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka:9093 --list;"
+
+volumes:
+  kafka_data:

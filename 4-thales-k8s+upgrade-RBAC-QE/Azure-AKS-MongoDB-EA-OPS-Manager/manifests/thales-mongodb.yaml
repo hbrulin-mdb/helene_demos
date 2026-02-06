@@ -1,0 +1,31 @@
+apiVersion: mongodb.com/v1
+kind: MongoDB
+metadata:
+  name: thales-mongodb
+  namespace: tenant-thales
+spec:
+  members: 3
+  # Use a version present in Ops Manager's Version Manifest (Admin -> Version Manifest). For Ops Manager 8.0,
+  # stick with 8.0.x (example below) unless you've imported a newer manifest.
+  version: "8.2.4-ent"
+  featureCompatibilityVersion: "8.0"
+  type: ReplicaSet
+  opsManager:
+    configMapRef:
+      name: thales-ops-manager-config
+  credentials: thales-ops-manager-credentials
+  security:
+    authentication:
+      enabled: true
+      modes: ["SCRAM"]
+  persistent: true
+  statefulSet:
+    spec:
+      volumeClaimTemplates:
+        - metadata:
+            name: data-volume
+          spec:
+            accessModes: ["ReadWriteOnce"]
+            resources:
+              requests:
+                storage: 10Gi

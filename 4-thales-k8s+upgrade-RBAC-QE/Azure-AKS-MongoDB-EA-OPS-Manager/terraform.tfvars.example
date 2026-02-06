@@ -1,0 +1,53 @@
+# terraform.tfvars.example
+# Copy this file to terraform.tfvars and fill in your actual values
+
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Your Azure subscription ID
+
+# Resource Tags
+created_by  = "YourName"        # Who created these resources
+expired_on  = "2026-06-15"      # Expiration date (6 months from deployment)
+environment = "production"
+
+cluster_name = "aks-mongodb-cluster"
+ops_manager_allowed_cidrs = ["104.30.164.0/28"] # Add your IP CIDR here for access
+
+# Version Configuration
+kubernetes_operator_version = "1.33.0"  # MongoDB Kubernetes Operator Helm chart version
+# ops_manager_version         = "8.0.0"  # MongoDB Ops Manager version (default)
+
+# Ops Manager Configuration
+ops_manager_url        = "https://ops-manager.example.com"
+ops_manager_admin_user = "admin"
+ops_manager_api_key    = "your-ops-manager-api-key-here"
+
+# Tenant Configuration
+# Each tenant will get its own namespace: tenant-{tenant_name}
+tenants = {
+  "thales-corp" = {
+    ops_manager_user       = "thales-user"
+    ops_manager_public_key = "thales-public-api-key"
+    ops_manager_org_id     = "thales-org-id"
+    ops_manager_project_id = "thales-project-id"
+    cpu_quota              = "20"
+    memory_quota           = "40Gi"
+    storage_quota          = "200Gi"
+  }
+  
+  "widget-inc" = {
+    ops_manager_user       = "widget-user"
+    ops_manager_public_key = "widget-public-api-key"
+    ops_manager_org_id     = "widget-org-id"
+    ops_manager_project_id = "widget-project-id"
+    cpu_quota              = "10"
+    memory_quota           = "20Gi"
+    storage_quota          = "100Gi"
+  }
+  
+  "example-llc" = {
+    ops_manager_user       = "example-user"
+    ops_manager_public_key = "example-public-api-key"
+    ops_manager_org_id     = "example-org-id"
+    ops_manager_project_id = "example-project-id"
+    # Will use default quotas: cpu=10, memory=20Gi, storage=100Gi
+  }
+}

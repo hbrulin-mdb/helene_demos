@@ -1,0 +1,538 @@
+{
+  "_id": {
+    "$oid": "6834b3edf4ca9b7aaabba224"
+  },
+  "equipement": "CAVE",
+  "serie_lcn": "REGIO2N",
+  "source": "etats-openca-cave",
+  "date_etat": "2046-02-05",
+  "rame": "120R",
+  "count": 75,
+  "events": [
+    {
+      "id": "cpt_in",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "cpt_out",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "35"
+    },
+    {
+      "id": "incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "engin",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "z5700239"
+    },
+    {
+      "id": "station_code",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "5262672"
+    },
+    {
+      "id": "station_nom",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "Paris Montparnasse Hall 1 & 2"
+    },
+    {
+      "id": "station",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "PMP"
+    },
+    {
+      "id": "station_end",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "station_start",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "temps_embarquement",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "910"
+    },
+    {
+      "id": "mission_sive",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "PORO"
+    },
+    {
+      "id": "num_train",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "165440"
+    },
+    {
+      "id": "nb_persabord",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "pc_incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "2"
+    },
+    {
+      "id": "flotte",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:43.000Z"
+      },
+      "valeur": "REGIO2N"
+    },
+    {
+      "id": "cpt_in",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "cpt_out",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "12"
+    },
+    {
+      "id": "incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "engin",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "z5700239"
+    },
+    {
+      "id": "station_code",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "5262672"
+    },
+    {
+      "id": "station_nom",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "Paris Montparnasse Hall 1 & 2"
+    },
+    {
+      "id": "station",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "PMP"
+    },
+    {
+      "id": "station_end",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "station_start",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "temps_embarquement",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "18"
+    },
+    {
+      "id": "mission_sive",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "PORO"
+    },
+    {
+      "id": "num_train",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "164404"
+    },
+    {
+      "id": "nb_persabord",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "pc_incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "8"
+    },
+    {
+      "id": "flotte",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:42.000Z"
+      },
+      "valeur": "REGIO2N"
+    },
+    {
+      "id": "cpt_in",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "cpt_out",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "3"
+    },
+    {
+      "id": "incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "engin",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "z5700239"
+    },
+    {
+      "id": "station_code",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "5262672"
+    },
+    {
+      "id": "station_nom",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "Paris Montparnasse Hall 1 & 2"
+    },
+    {
+      "id": "station",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "PMP"
+    },
+    {
+      "id": "station_end",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "station_start",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "temps_embarquement",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "211"
+    },
+    {
+      "id": "mission_sive",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "POMI"
+    },
+    {
+      "id": "num_train",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "165690"
+    },
+    {
+      "id": "nb_persabord",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "pc_incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "7"
+    },
+    {
+      "id": "flotte",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:44.000Z"
+      },
+      "valeur": "REGIO2N"
+    },
+    {
+      "id": "cpt_in",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "cpt_out",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "47"
+    },
+    {
+      "id": "incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "4"
+    },
+    {
+      "id": "engin",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "z5700239"
+    },
+    {
+      "id": "station_code",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "5262672"
+    },
+    {
+      "id": "station_nom",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "Paris Montparnasse Hall 1 & 2"
+    },
+    {
+      "id": "station",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "PMP"
+    },
+    {
+      "id": "station_end",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "station_start",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "temps_embarquement",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "216"
+    },
+    {
+      "id": "mission_sive",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "POMI"
+    },
+    {
+      "id": "num_train",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "165690"
+    },
+    {
+      "id": "nb_persabord",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "pc_incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "7"
+    },
+    {
+      "id": "flotte",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "REGIO2N"
+    },
+    {
+      "id": "cpt_in",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "3"
+    },
+    {
+      "id": "cpt_out",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "72"
+    },
+    {
+      "id": "incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "3"
+    },
+    {
+      "id": "engin",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "z5700239"
+    },
+    {
+      "id": "station_code",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "5262672"
+    },
+    {
+      "id": "station_nom",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "Paris Montparnasse Hall 1 & 2"
+    },
+    {
+      "id": "station",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "PMP"
+    },
+    {
+      "id": "station_end",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "1"
+    },
+    {
+      "id": "station_start",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "temps_embarquement",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "280"
+    },
+    {
+      "id": "mission_sive",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "PORO"
+    },
+    {
+      "id": "num_train",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "165492"
+    },
+    {
+      "id": "nb_persabord",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "0"
+    },
+    {
+      "id": "pc_incertain",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "4"
+    },
+    {
+      "id": "flotte",
+      "date_etat": {
+        "$date": "2046-02-05T06:29:45.000Z"
+      },
+      "valeur": "REGIO2N"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# manifests/thales-ops-manager-config.yaml
+# Ops Manager connection configuration for Air France tenant
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: thales-ops-manager-config
+  namespace: opsmanager
+data:
+  # Ops Manager URL (internal service)
+  baseUrl: http://ops-manager-svc.mongodb.svc.cluster.local:8080
+  
+  # Project ID from Ops Manager (you'll need to create this in Ops Manager UI first)
+  projectName: thales-project
+  
+  # Organization ID from Ops Manager (visible in URL or settings)
+  orgId: "YOUR_ORG_ID"
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: thales-ops-manager-credentials
+  namespace: opsmanager
+type: Opaque
+stringData:
+  # API credentials from Ops Manager
+  # After creating a project in Ops Manager:
+  # 1. Go to Project Settings > Access Manager > API Keys
+  # 2. Create an API key with "Project Owner" permissions
+  # 3. Replace these values:
+  user: "REPLACE_WITH_API_PUBLIC_KEY"
+  publicApiKey: "REPLACE_WITH_API_PRIVATE_KEY"

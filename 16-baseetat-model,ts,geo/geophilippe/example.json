@@ -1,0 +1,351 @@
+{
+
+  "UtcObservation": {
+
+    "$date": "2026-01-22T12:13:44.000Z"
+
+  },
+
+  "IdMobile": "C153652Z20507-1769079288721",
+
+  "location": {
+
+    "type": "Point",
+
+    "coordinates": [
+
+      2.547433,
+
+      48.668142
+
+    ]
+
+  },
+
+  "DistanceProjectionLigne": 10.687648,
+
+  "IdLocalisation": null,
+
+  "YProjVoie": null,
+
+  "xFinConvoi": null,
+
+  "EcartItineraire": false,
+
+  "TechniqueDetection": "GNSS",
+
+  "Segment": null,
+
+  "CapCirculation": 141,
+
+  "VoiePhysiqueProvenance": null,
+
+  "FenetreLocalisateur": null,
+
+  "DistanceProjectionVoie": null,
+
+  "IdCorrelation": "cc9f6b92-f78b-11f0-b7a9-ea18efc5ce6f",
+
+  "X": 2.547433,
+
+  "CodeLigne": null,
+
+  "Entete": {
+
+    "Environnement": "Recette",
+
+    "Version": "2.8.0",
+
+    "ComposantKo": null
+
+  },
+
+  "yFinConvoi": null,
+
+  "Source": "SIVE_CCEU",
+
+  "CauseNonRapprochementTheorique": null,
+
+  "ZProjVoie": null,
+
+  "Aberrant": false,
+
+  "DetailEvenement": null,
+
+  "VoiePhysiqueDestination": null,
+
+  "PkVoie": null,
+
+  "Rames": null,
+
+  "VoieReseau": null,
+
+  "CodeTroncon": null,
+
+  "MaterielLocalisateur": null,
+
+  "DernierePositionCourse": false,
+
+  "_id": {
+
+    "$oid": "6973921da14e3bb272c44e52"
+
+  },
+
+  "VitesseInstantanee": 6.944445,
+
+  "Y": 48.668142,
+
+  "XProjLigne": 2.5475604415797832,
+
+  "CauseAberrant": null,
+
+  "distanceParcoursCourse": null,
+
+  "TeteDeConvoi": false,
+
+  "DateHeureDepartSillon": {
+
+    "$date": "2026-01-22T11:04:40.000Z"
+
+  },
+
+  "RapprochementTheorique": true,
+
+  "DernierePositionMobile": false,
+
+  "IdEtapeCourse": "C153652-2026.01.22T11:04:40.000Z",
+
+  "Pays": "FR",
+
+  "Rfn": null,
+
+  "EcartHoraireEstimeCourse": null,
+
+  "NumeroSillonComplementaire": "153653",
+
+  "Epsg": 4326,
+
+  "DistanceParcoursSillon": 50877.984,
+
+  "ZProjLigne": null,
+
+  "NumeroSillonOrigine": "153652",
+
+  "Z": null,
+
+  "EcartHoraireSillon": -15,
+
+  "CodeUi": "1287",
+
+  "Prs": {
+
+    "Pr": [
+
+      {
+
+        "Ci": "682138",
+
+        "Ch": "0",
+
+        "Cr": "87",
+
+        "Distance": 1799.8109,
+
+        "Orientation": "Amont",
+
+        "PrimaryCode": null,
+
+        "Type": "Jalonnement"
+
+      },
+
+      {
+
+        "Ci": "682146",
+
+        "Ch": "BV",
+
+        "Cr": "87",
+
+        "Distance": 8.371005,
+
+        "Orientation": "Aval",
+
+        "PrimaryCode": null,
+
+        "Type": "Jalonnement"
+
+      },
+
+      {
+
+        "Ci": "682138",
+
+        "Ch": "0",
+
+        "Cr": "87",
+
+        "Distance": 1799.8109,
+
+        "Orientation": "Amont",
+
+        "PrimaryCode": null,
+
+        "Type": "Proche"
+
+      },
+
+      {
+
+        "Ci": "682146",
+
+        "Ch": "BV",
+
+        "Cr": "87",
+
+        "Distance": 8.371005,
+
+        "Orientation": "Aval",
+
+        "PrimaryCode": null,
+
+        "Type": "Proche"
+
+      }
+
+    ]
+
+  },
+
+  "UtcEnvoi": {
+
+    "$date": "2026-01-22T12:13:45.763Z"
+
+  },
+
+  "data_mr": {
+
+    "num_immatriculation_ef": "04D",
+
+    "num_facade": "20507",
+
+    "identifiant": 100390,
+
+    "serie": {
+
+      "code_serie_materiel": "Z20500-5C--HNRF",
+
+      "type": "Variante",
+
+      "code_serie_mere": "Z20500-5C",
+
+      "code_serie_racine": "Z20500",
+
+      "identifiant": 1878,
+
+      "code_lcn": "Z2N",
+
+      "parc": "Z2N"
+
+    },
+
+    "stf": {
+
+      "id": "SLD",
+
+      "name": "STF Lignes D/R"
+
+    },
+
+    "flotte": {
+
+      "identifiant": 57,
+
+      "libelle": "Flotte Transilien Ligne D et R - Z 20500"
+
+    }
+
+  },
+
+  "FiabiliteGps": 4,
+
+  "UtcDebutStationnement": null,
+
+  "XProjVoie": null,
+
+  "YProjLigne": 48.66818799935333,
+
+  "Engins": {
+
+    "Engin": [
+
+      {
+
+        "GroupesVehicules": null,
+
+        "NumeroEngin": "Z20507"
+
+      }
+
+    ]
+
+  },
+
+  "IndicateurFer": "F",
+
+  "TypeEvenement": null,
+
+  "OriginePosition": "Z20507",
+
+  "PkLigne": null,
+
+  "Courses": {
+
+    "Course": [
+
+      {
+
+        "CodeActivite": "1287",
+
+        "CodeCie": "1187",
+
+        "CodeTransporteur": "D",
+
+        "distanceParcoursCourse": 50877.984,
+
+        "IdCourse": "TN/664de1f2-1543-4470-b00e-18f7d58eeef3",
+
+        "LibCodeActivite": "SNCF - Transilien",
+
+        "LibCodeCie": "SNCF Voyages",
+
+        "Marque": null,
+
+        "NumeroCourse": "153652",
+
+        "NumeroCourseComplementaire": "153653",
+
+        "TypeMission": "C",
+
+        "UtcDebutStationnement": null,
+
+        "UtcDepart": "2026-01-22T11:04:40Z",
+
+        "UtcMiseAJourPmt": "2026-01-22T09:43:57.928000Z",
+
+        "LieuDestinationLibPr": "Melun Bâtiment Voyageurs",
+
+        "LieuOrigineLibPr": "Goussainville Bâtiment Voyageurs"
+
+      }
+
+    ]
+
+  },
+
+  "VoiePhysiqueRelation": null,
+
+  "CapGps": 152
+
+}

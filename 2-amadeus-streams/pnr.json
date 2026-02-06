@@ -1,0 +1,104 @@
+{
+  "rloc": "I3BV9A",
+  "schemaVersion": "2.0",
+  "creationDate": {
+    "$date": "2026-01-27T14:54:30.510Z"
+  },
+  "purgeDate": {
+    "$date": "2027-01-27T14:54:30.510Z"
+  },
+  "creatingAgencyId": "NCE1A0950",
+  "passengers": [
+    {
+      "passengerId": 1,
+      "firstName": "WEI",
+      "lastName": "ALI",
+      "title": "MRS",
+      "type": "ADT",
+      "loyaltyProgram": null
+    },
+    {
+      "passengerId": 2,
+      "firstName": "MOHAMED",
+      "lastName": "DUPONT",
+      "title": "MRS",
+      "type": "ADT",
+      "loyaltyProgram": null
+    },
+    {
+      "passengerId": 3,
+      "firstName": "WEI",
+      "lastName": "JONES",
+      "title": "MRS",
+      "type": "ADT",
+      "loyaltyProgram": null
+    }
+  ],
+  "itinerary": [
+    {
+      "segmentId": 1,
+      "type": "FLIGHT",
+      "status": "CONFIRMED",
+      "carrierCode": "SQ",
+      "flightNumber": 276,
+      "origin": "FRA",
+      "destination": "JFK",
+      "departureDate": {
+        "$date": "2026-01-28T14:54:30.510Z"
+      },
+      "arrivalDate": {
+        "$date": "2026-01-28T15:54:30.510Z"
+      },
+      "bookingClass": "Y"
+    },
+    {
+      "segmentId": 2,
+      "type": "HOTEL",
+      "status": "CONFIRMED",
+      "chainCode": "HL",
+      "propertyCode": "NYC001",
+      "checkInDate": {
+        "$date": "2026-01-28T15:54:30.510Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-01-29T15:54:30.510Z"
+      }
+    }
+  ],
+  "contact": {
+    "email": "wei.ali@example.com",
+    "mobile": "+33612345678",
+    "notificationPreference": "SMS"
+  },
+  "ticketing": {
+    "ticketTimeLimit": {
+      "$date": "2026-01-29T14:54:30.510Z"
+    },
+    "status": "TICKETED",
+    "tickets": [
+      {
+        "passengerId": 1,
+        "ticketNumber": "176-826001315"
+      },
+      {
+        "passengerId": 2,
+        "ticketNumber": "176-487442784"
+      },
+      {
+        "passengerId": 3,
+        "ticketNumber": "176-946167870"
+      }
+    ]
+  },
+  "specialServiceRequests": [
+    {
+      "code": "VGML",
+      "status": "HK",
+      "passengerId": 1
+    }
+  ],
+  "version": 1,
+  "lastUpdated": {
+    "$date": "2026-01-27T14:54:30.510Z"
+  }
+}

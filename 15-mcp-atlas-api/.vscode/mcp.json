@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "MongoDB": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server@latest", "--readOnly"],
+      "envFile": "${workspaceFolder}/.env",
+    }
+  }
+}

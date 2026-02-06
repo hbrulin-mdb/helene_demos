@@ -1,0 +1,38 @@
+[
+  {
+    "meta": { "rame": "351L" },
+    "timestamp": { "$date": "2025-06-24T08:50:15.123Z" },
+    "type": "geolocation",
+    "location": { "type": "Point", "coordinates": [ 2.3522, 48.8566 ] }
+  },
+  {
+    "meta": { "rame": "351L" },
+    "timestamp": { "$date": "2025-06-24T08:50:25.845Z" },
+    "type": "geolocation",
+    "location": { "type": "Point", "coordinates": [ 2.3525, 48.8569 ] }
+  },
+  {
+    "meta": { "rame": "351L" },
+    "timestamp": { "$date": "2025-06-24T08:50:30.910Z" },
+    "type": "event",
+    "event": { "mesure": "Speed_Report", "valeur": "85" }
+  },
+  {
+    "meta": { "rame": "351L" },
+    "timestamp": { "$date": "2025-06-24T08:50:35.210Z" },
+    "type": "geolocation",
+    "location": { "type": "Point", "coordinates": [ 2.3529, 48.8571 ] }
+  },
+  {
+    "meta": { "rame": "351L" },
+    "timestamp": { "$date": "2025-06-24T08:50:42.177Z" },
+    "type": "event",
+    "event": { "mesure": "Brake_Applied", "valeur": "0.25" }
+  },
+  {
+    "meta": { "rame": "351L" },
+    "timestamp": { "$date": "2025-06-24T08:50:45.933Z" },
+    "type": "geolocation",
+    "location": { "type": "Point", "coordinates": [ 2.3533, 48.8573 ] }
+  }
+]
