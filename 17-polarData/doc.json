@@ -1,0 +1,81 @@
+{
+    "message_ident": 1,
+    "sequence_number": 919,
+    "time_validity": 166125624070400,
+    "sensor_id": 1,
+    "sector_number": 26,
+    "sector_type": {
+        "name": "NORMAL_SECTOR",
+        "ordinal": 0,
+        "value": 0
+	},
+    "face_id": 1,
+    "task_nr": 14748,
+    "task_scan_number": 55022,
+    "sensor_available": {
+        "name": "BOOL_TRUE",
+        "ordinal": 1,
+        "value": 1
+	},
+    "transmit_power": {
+        "name": "BOOL_TRUE",
+        "ordinal": 1,
+        "value": 1
+	},
+    "sector_azimuth": 2.552544,
+    "platform_heading": -1.3291943,
+    "platform_roll": 0.0219551,
+    "platform_pitch": 0.0017257284,
+    "platform_vx": 0.0,
+    "platform_vy": 0.0,
+    "platform_latitude": 0.7711819,
+    "platform_longitude": -0.004994056,
+    "number_of_plots": 3,
+    "plot": [
+    	{
+            "time_validity": 166125532982630,
+            "task_scan_number": 55022,
+            "plot_number": 17,
+            "cartesian_position": {
+                "x": 42551.477,
+                "y": -43813.07,
+                "z": 3750.5251
+        	},
+            "polar_position": {
+                "range": 61190.52,
+                "azimuth": 2.3708012,
+                "elevation": 0.061331026
+        	}
+    	},
+    	{
+            "time_validity": 166125536115271,
+            "task_scan_number": 55022,
+            "plot_number": 18,
+            "cartesian_position": {
+                "x": 42087.977,
+        	    "y": -43596.53,
+                "z": 3882.3516
+        	},
+            "polar_position": {
+                "range": 60721.723,
+                "azimuth": 2.3737986,
+                "elevation": 0.06398042
+        	}
+    	},
+    	{
+    	    "time_validity": 166125536226934,
+            "task_scan_number": 55022,
+            "plot_number": 19,
+            "cartesian_position": {
+                "x": 76299.055,
+                "y": -79692.59,
+                "z": 10374.701
+        	},
+           "polar_position": {
+                "range": 110815.57,
+                "azimuth": 2.3779457,
+                "elevation": 0.093758635
+        	}
+    	}
+	]
+}
