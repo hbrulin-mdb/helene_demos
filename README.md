@@ -21,4 +21,4 @@
 | 14-atlas Failover  |Failover demo, based on [proof point rep](https://github.com/10gen/pov-proof-exercises/tree/master/proofs/17) | Even without retryable writes, it happens that no error is shown.    |
 | 15-mcp-atlas-api   | This shows how to use the mcp server by using Atlas Service Accounts and not a cluster connection string, allowing project-wide (or org-wide, if the service account is at the org level), actions.   |   |
 | 16-baseetat-model,ts,geo   | Unorganized repo of multiple demos for SNCF base Etat, including a train position detector with timeseries, both in real time and over history (in batches).    |  The notes have not been reviewed yet  |
-| 17-polarData   | Geo queries : Azimut windows with return to 0 degrees, geodesique+altitude, euclidian 2D, euclidian 3D, azimut+range+altitude within the "repère radar"   |  The notes have not been reviewed yet  |
+| 17-polarData   | Geo queries : Azimut windows with return to 0 degrees, geodesique+altitude, euclidian 2D, euclidian 3D, azimut+range+altitude within the "repère radar"   |    |
