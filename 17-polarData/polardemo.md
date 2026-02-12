@@ -4,13 +4,13 @@
 
 # ingest
 ```sh
-python3 load.py --mongo "mongodb://admin:pwd@localhost:27017/?authSource=admin&directConnection=true" --db radar --drop --generate --n_scans 200 --plots_per_scan 50
+python3 load.py --mongo "mongodb://<admin>:>pwd>@localhost:27017/?authSource=admin&directConnection=true" --db radar --drop --generate --n_scans 200 --plots_per_scan 50
 ```
 
 # query temps + fenêtre azimutale
 
 ```sh
-python3 queries.py --mongo "mongodb://admin:pwd@localhost:27017/?authSource=admin&directConnection=true" --db radar q_az --t0 2022-08-23T00:00:00Z --t1 2022-08-25T00:00:00Z --a0 350 --a1 10
+python3 queries.py --mongo "mongodb://<admin>:<pwd>@localhost:27017/?authSource=admin&directConnection=true" --db radar q_az --t0 2022-08-23T00:00:00Z --t1 2022-08-25T00:00:00Z --a0 350 --a1 10
 ```
 
 ## Cas A — pas de wrap (A ≤ B), ex: 30° → 80°
